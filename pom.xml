@@ -12,6 +12,7 @@
         <module>spring-mongo</module>
         <module>spring-elasticsearch</module>
         <module>spring-rabbitmq</module>
+        <module>spring-logging</module>
     </modules>
 
 
