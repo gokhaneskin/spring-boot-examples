@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elasticsearch" />
+        <module name="spring-aop" />
         <module name="spring-rabbitmq" />
         <module name="spring-mongo" />
         <module name="spring-logging" />
@@ -15,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-aop" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-logging" options="-parameters" />
       <module name="spring-mongo" options="-parameters" />

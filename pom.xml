@@ -13,6 +13,7 @@
         <module>spring-elasticsearch</module>
         <module>spring-rabbitmq</module>
         <module>spring-logging</module>
+        <module>spring-aop</module>
     </modules>
 
 
